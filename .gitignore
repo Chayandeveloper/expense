@@ -1,0 +1,9 @@
+# Laravel
+vendor/
+.env
+
+# Node
+node_modules/
+
+# system
+.DS_Store
