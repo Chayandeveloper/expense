@@ -26,7 +26,7 @@ class AuthController extends Controller
         ]);
 
         // Seed default categories for new user
-        $this->seedDefaultCategories($user);
+        //$this->seedDefaultCategories($user);
 
         $token = $user->createToken('auth_token')->plainTextToken;
 
